@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinWise - Equity Market Financial Literacy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- For icons -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navy pulse-nav">
+        <a class="navbar-brand" href="#"><i class="fas fa-chart-line"></i> FinWise</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#problem">Problem Statement</a></li>
+                <li class="nav-item"><a class="nav-link" href="#magazine">E-Magazine</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tutorials">Tutorials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#manifesto">Manifesto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="hero bg-gradient text-white text-center py-5 animate-slide-in">
+        <div class="container">
+            <h1 class="display-4 glow-text">Welcome to FinWise</h1>
+            <p class="lead">Empowering Financial Literacy in the Equity Market</p>
+            <a href="#about" class="btn btn-coral btn-lg btn-pulse"><i class="fas fa-play"></i> Get Started</a>
+        </div>
+    </header>
+    
+    <section id="about" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="text-navy slide-in-left"><i class="fas fa-info-circle"></i> What is the Equity Market?</h2>
+                <p>The equity market, or stock market, is where shares of publicly traded companies are bought and sold. It allows investors to own part of a company and potentially profit from its growth. Key players include exchanges like the NYSE and investors like you!</p>
+                <div class="progress mt-3">
+                    <div class="progress-bar bg-coral" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75% Awareness</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="ChatGPT Image Dec 22, 2025, 08_23_39 AM.png" alt="Stock market chart" class="img-fluid rounded shadow-lg hover-glow">
+            </div>
+        </div>
+    </section>
+    
+    <section id="problem" class="bg-light py-5 bg-pattern">
+        <div class="container">
+            <h2 class="text-center text-navy mb-4 slide-in-up"><i class="fas fa-exclamation-triangle"></i> Problem Statement</h2>
+            <div class="card shadow-lg hover-lift border-0">
+                <div class="card-body bg-gradient-card">
+                    <blockquote class="blockquote text-white">
+                        <p>The increasing participation of retail investors in the share market has not been matched by an equivalent increase in financial literacy. A significant number of investors lack awareness of basic share market principles, risk management strategies, and ethical investment practices. This gap between participation and knowledge poses a risk to individual financial stability and overall market efficiency. This study aims to analyze the level of financial literacy regarding the share market and identify measures to enhance investor awareness and decision-making skills.</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="magazine" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="text-navy slide-in-left"><i class="fas fa-book-open"></i> Our E-Magazine</h2>
+                <p>Explore our interactive e-magazine on equity market literacy! It dives deep into topics like stock basics, real-world case studies, and tips for beginners. Download or view online to enhance your knowledge.</p>
+                <a href="https://www.canva.com/design/DAG3RYtObW4/-Iec9160xsKAjv5JXXfXzw/edit?utm_content=DAG3RYtObW4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-coral btn-lg btn-pulse" target="_blank"><i class="fas fa-external-link-alt"></i> View E-Magazine</a>
+            </div>
+            <div class="col-md-6">
+                <img src="Capture.JPG" alt="E-Magazine cover" class="img-fluid rounded shadow-lg hover-glow">
+            </div>
+        </div>
+    </section>
+    
+    <section id="tutorials" class="bg-light py-5 bg-pattern">
+        <div class="container">
+            <h2 class="text-center text-navy mb-4 slide-in-up"><i class="fas fa-graduation-cap"></i> Financial Literacy Tutorials</h2>
+            <div class="card shadow-lg hover-lift">
+                <div class="card-body">
+                    <p>Interactive quizzes and videos here. Example: What is diversification?</p>
+                    <input id="quiz-answer" class="form-control mb-2" placeholder="Your answer">
+                    <button onclick="checkAnswer()" class="btn btn-coral btn-pulse">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="manifesto" class="bg-gradient-secondary py-5">
+        <div class="container">
+            <h2 class="text-center text-white mb-4 slide-in-up"><i class="fas fa-scroll"></i> Our Manifesto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-lg hover-lift border-0">
+                        <img src="Capture1.JPG" class="card-img-top rounded-top" alt="FinWise Manifesto">
+                        <div class="card-body text-center bg-gradient-card">
+                            <p class="card-text text-white">Our manifesto outlines our commitment to financial education, ethical investing, and community empowerment. It serves as a guiding principle for all our projects and initiatives.</p>
+                            <a href="Capture1.JPG" class="btn btn-light btn-pulse" target="_blank"><i class="fas fa-eye"></i> View Full Manifesto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resources" class="bg-light py-5 bg-pattern">
+        <div class="container">
+            <h2 class="text-center text-navy mb-4 slide-in-up"><i class="fas fa-link"></i> Resources</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg hover-lift text-center">
+                        <div class="card-body">
+                            <i class="fas fa-book fa-3x text-coral mb-3"></i>
+                            <h5>Investopedia</h5>
+                            <p>Free articles on stock basics.</p>
+                            <a href="https://www.investopedia.com" class="btn btn-outline-navy">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg hover-lift text-center">
+                        <div class="card-body">
+                            <i class="fas fa-gavel fa-3x text-navy mb-3"></i>
+                            <h5>SEC.gov</h5>
+                            <p>Official investor resources.</p>
+                            <a href="https://www.sec.gov" class="btn btn-outline-navy">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg hover-lift text-center">
+                        <div class="card-body">
+                            <i class="fas fa-play-circle fa-3x text-orange mb-3"></i>
+                            <h5>Khan Academy</h5>
+                            <p>Free finance videos.</p>
+                            <a href="https://www.khanacademy.org" class="btn btn-outline-navy">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-navy text-white text-center py-3">
+        <p>&copy; 2023 FinWise Group Project. Not financial advice. Consult professionals.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSer50YJcsaHiZ72y7Wcyk3_keriCF8gCPBe377MveuIaJxhFg/viewform?usp=dialog" class="btn btn-coral btn-pulse mt-2" target="_blank"><i class="fas fa-comments"></i> Give Feedback</a>
+        <div class="mt-2"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i></div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
